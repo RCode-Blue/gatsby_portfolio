@@ -1,4 +1,32 @@
 {
-  "arrowParens": "avoid",
-  "semi": false
+  "trailingComma": "es5",
+  "printWidh": 70,
+  "useTabs": false,
+  "jsxSingleQuote": false,
+  "arrowParens": "always",
+  "overrides": [
+    {
+      "files": "*.js",
+      "options": {
+        "singleQuote": false,
+        "semi": true
+      }
+    },
+    {
+      "files": ["*.js", "*.jsx"],
+      "options": {
+        "bracketSpacing": true
+      }
+    },
+    {
+      "files": "*.py",
+      "options": {
+        "singleQuote": false
+      }
+    },
+    {
+      "files": "*.html",
+      "options": {}
+    }
+  ]
 }
